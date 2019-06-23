@@ -1,7 +1,7 @@
-Kafka Manager
-=============
+Kafka Manager (Universal Package Version)
+=========================================
 
-Built from Source : https://github.com/yahoo/kafka-manager/
+Built from Source Code : https://github.com/yahoo/kafka-manager/
 
 A tool for managing [Apache Kafka](http://kafka.apache.org).
 
