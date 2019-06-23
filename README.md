@@ -1,7 +1,7 @@
 Kafka Manager
 =============
 
-Source/Reference: https://github.com/yahoo/kafka-manager/
+Built from Source : https://github.com/yahoo/kafka-manager/
 
 A tool for managing [Apache Kafka](http://kafka.apache.org).
 
@@ -159,27 +159,6 @@ LDAP support is through the basic authentication filter.
 - basicAuthentication.ldap.ssl=false
 
 
-Deployment
-----------
-
-The command below will create a zip file which can be used to deploy the application.
-
-    ./sbt clean dist
-
-Please refer to play framework documentation on [production deployment/configuration](https://www.playframework.com/documentation/2.4.x/ProductionConfiguration).
-
-If java is not in your path, or you need to build against a specific java version,
-please use the following (the example assumes oracle java8):
-
-    $ PATH=/usr/local/oracle-java-8/bin:$PATH \
-      JAVA_HOME=/usr/local/oracle-java-8 \
-      /path/to/sbt -java-home /usr/local/oracle-java-8 clean dist
-
-This ensures that the 'java' and 'javac' binaries in your path are first looked up in the
-oracle java8 release. Next, for all downstream tools that only listen to JAVA_HOME, it points
-them to the oracle java8 location. Lastly, it tells sbt to use the oracle java8 location as
-well.
-
 Starting the service
 --------------------
 
@@ -208,24 +187,9 @@ To add JAAS configuration for SASL, add the config file location at start:
 NOTE: Make sure the user running kafka manager has read permissions on the jaas config file
 
 
-Packaging
----------
-
-If you'd like to create a Debian or RPM package instead, you can run one of:
-
-    sbt debian:packageBin
-
-    sbt rpm:packageBin
-
 Credits
 -------
 
 Logo/favicon used is from [Apache Kafka](http://kafka.apache.org).
 
 Most of the utils code has been adapted to work with [Apache Curator](http://curator.apache.org) from [Apache Kafka](http://kafka.apache.org).
-
-
-License
--------
-
-Apache Licensed. See accompanying LICENSE file.
