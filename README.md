@@ -1,7 +1,7 @@
 Kafka Manager
 =============
 
-Reference: https://github.com/yahoo/kafka-manager/
+Source/Reference: https://github.com/yahoo/kafka-manager/
 
 A tool for managing [Apache Kafka](http://kafka.apache.org).
 
