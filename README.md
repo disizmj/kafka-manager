@@ -1,5 +1,8 @@
 Kafka Manager (Universal Package Version)
 =========================================
+**************************
+// With RPM & DEB files //
+**************************
 
 Built from Source Code : https://github.com/yahoo/kafka-manager/
 
