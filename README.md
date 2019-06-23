@@ -1,5 +1,6 @@
-Kafka Manager (Universal Package Version)
-=========================================
+Kafka Manager (Universal Package)
+=================================
+
 **************************
 // With RPM & DEB files //
 **************************
